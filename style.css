@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 30px 0;
+}
+
+.box {
+    width: 1000px;
+    height: 800px;
+    background-color: black;
+    position: relative;
+}
+
+body {
+    background-color: black;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 101px;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.hero {
+    padding: 80px 0;
+    background-image: url("./img/Rectangle\ 2\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: center;
+    box-shadow: 16px 18px 28px 0px #ffffff40;
+    background-color: #ffffff;
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    margin: 10px auto;
+}
+
+.yashil {
+    width: 237px;
+    height: 209px;
+    background: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    padding-top: 146px;
+    text-align: center;
+    position: relative;
+}
+
+.yashil h2 {
+    color: red;
+}
+
+.qizil {
+    width: 237px;
+    height: 209px;
+    background-color: red;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    top: -150px;
+    left: 120px;
+}
+
+.qizil h2 {
+    color: white;
+}
+
+.ota {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.yashil2 {
+    width: 237px;
+    height: 209px;
+    background: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    padding-top: 146px;
+    text-align: center;
+    position: relative;
+}
+
+.yashil2 h2 {
+    color: red;
+}
+
+.qizil2 {
+    width: 411px;
+    height: 209px;
+    border-radius: 100px;
+    background-color: red;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    top: -150px;
+    left: -100px;
+}
+
+.qizil2 h2 {
+    color: white;
+}
+
+.yashil3 {
+    width: 237px;
+    height: 209px;
+    background: #32FB00;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    padding-top: 146px;
+    text-align: center;
+    position: relative;
+}
+
+.yashil3 h2 {
+    color: red;
+}
+
+.qizil3 {
+    width: 237px;
+    height: 209px;
+    background-color: red;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    top: -150px;
+    left: -120px;
+}
+
+.qizil3 h2 {
+    color: white;
+}
+
+.info {
+    padding: 80px;
+}
+
+.card {
+    width: 368px;
+    height: 332px;
+    background: #7B2525;
+    padding-top: 50px;
+    padding-bottom: 89px;
+}
+
+.info-ota .card h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: center;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    color: white;
+}
+
+.info-ota .card p {
+    padding-top: 68px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+    color: white;
+}
+
+.info-ota {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 101px;
+    align-items: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    padding: 30px 0;
+}
